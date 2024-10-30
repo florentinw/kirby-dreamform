@@ -20,7 +20,7 @@ return [
 	'storeSubmissions' => true, // Store submissions in the content folder
 	'partialSubmissions' => true, // Allow partial submissions toggle in panel (requires precognition)
 	'precognition' => false, // Enable precognition (HTMX mode only) - Requires "idiomorph" htmx extension
-	'debug' => fn () => App::instance()->option('debug'),
+	'debug' => fn() => App::instance()->option('debug'),
 	'layouts' => [ // https://getkirby.com/docs/reference/panel/fields/layout#defining-your-own-layouts
 		'1/1',
 		'1/2, 1/2'
@@ -91,6 +91,9 @@ return [
 		'mailchimp' => [
 			'apiKey' => null // Mailchimp API key
 		],
+		'loops' => [
+			'apiKey' => null // Loops.so API key
+		],
 		'brevo' => [
 			'apiKey' => null // Mailchimp API key
 		],
@@ -100,8 +103,8 @@ return [
 		],
 		'email' => [
 			'from' => [
-				'email' => fn () => App::instance()->option('email.transport.username'),
-				'name' => fn () => App::instance()->site()->title()
+				'email' => fn() => App::instance()->option('email.transport.username'),
+				'name' => fn() => App::instance()->site()->title()
 			]
 		],
 		'plausible' => [
