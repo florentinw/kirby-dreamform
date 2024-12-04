@@ -78,8 +78,9 @@ class LoopsAction extends Action
 
 			$value = $this->submission()->valueForDynamicField(new Field($this->form(), $key, $field));
 
-			if ($value && A::has($casedKeys, $key)) {
-				$casedKey = A::find($casedKeys, fn ($k) => Str::lower($k) === Str::lower($key));
+			if ($value) {
+				$casedKey = A::find($casedKeys, fn($k) => Str::lower($k) === Str::lower($key));
+				if (!$casedKey) return;
 				$values[$casedKey] = $value->value();
 			}
 		}
