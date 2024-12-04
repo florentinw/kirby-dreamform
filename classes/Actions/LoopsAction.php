@@ -42,9 +42,9 @@ class LoopsAction extends Action
 							'default' => '',
 							'width' => '1/3',
 							'options' => [
-								'' => t('dreamform.actions.loops.subscribe.unset'),
-								'true' => t('dreamform.actions.loops.subscribe.yes'),
-								'false' => t('dreamform.actions.loops.subscribe.no'),
+								'' => t('dreamform.actions.loops.subscribed.unset'),
+								'true' => t('dreamform.actions.loops.subscribed.yes'),
+								'false' => t('dreamform.actions.loops.subscribed.no'),
 							]
 						],
 						'fields' => [
