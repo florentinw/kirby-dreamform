@@ -80,7 +80,7 @@ class LoopsAction extends Action
 
 			if ($value) {
 				$casedKey = A::find($casedKeys, fn($k) => Str::lower($k) === Str::lower($key));
-				if (!$casedKey) return;
+				if (!$casedKey) continue;
 				$values[$casedKey] = $value->value();
 			}
 		}
