@@ -54,7 +54,7 @@
     "actions.brevo.attributes.empty": "Keine Attributzuordnungen gesetzt",
     "actions.brevo.attributes.help": "Wähle die Felder aus dem Formular, die mit den Attributen in Brevo übereinstimmen. Bitte beachte, dass bestimmte Attribute möglicherweise ein bestimmtes Format benötigen, um in Brevo verwendet zu werden.",
     "actions.brevo.attributes.label": "Attributzuordnung",
-		"actions.loops.contact.name": "Loops-Kontakt erstellen",
+		"actions.loops.contact.name": "Loops-Kontakt erstellen oder aktualisieren",
 		"actions.loops.contact.lists.label": "Kontakt zu Listen hinzufügen...",
 		"actions.loops.contact.subscribed.label": "Kontakt als Abonnent markieren?",
 		"actions.loops.contact.subscribed.help": "Ob ein Kontakt Loops und Kampagnen empfangen darf. Abgemeldete Kontakte können nur Transaktions-E-Mails erhalten.",

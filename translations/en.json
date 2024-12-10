@@ -70,7 +70,7 @@
 	"actions.brevo.attributes.empty": "No attribute mappings set",
 	"actions.brevo.attributes.help": "Select the fields from the form that match the attributes in Brevo. Please note that certain attributes may require a specific format in order to be used in Brevo.",
 	"actions.brevo.attributes.label": "Attribute Mapping",
-	"actions.loops.contact.name": "Create Loops Contact",
+	"actions.loops.contact.name": "Create or Update Loops Contact",
 	"actions.loops.contact.lists.label": "Add Contact to Lists...",
 	"actions.loops.contact.subscribed.label": "Subscribe Contact?",
 	"actions.loops.contact.subscribed.help": "Whether a contact is able to receive loops and campaigns. Unsubscribed contacts can only receive transactional emails.",
