@@ -120,7 +120,7 @@ class LoopsAction extends Action
 		);
 	}
 
-	protected static function getFieldsBlueprint(): array
+	public static function getFieldsBlueprint(): array
 	{
 		$fields = [
 			'email' => [
